@@ -1,0 +1,27 @@
+@import '../global';
+.header{
+    padding: 14px 30px 14px 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: $color-blue;
+}
+.logo{
+    &__link{
+        display: flex;
+        align-items: center;
+        span{
+            margin-left: 8px;
+            color: $color-white;
+            @include font(20px, 500, 24px);
+        }
+    }
+}
+.nav{
+    &__list{
+        display: flex;
+    }
+    &__item{
+        margin-left: 16px;
+    }
+}
