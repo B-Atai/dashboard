@@ -1,6 +1,4 @@
-import React from 'react';
 import { navItems } from './const';
-
 function Nav() {
   return (
     <nav className='nav'>

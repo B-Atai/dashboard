@@ -1,0 +1,58 @@
+{
+"users": [
+    {
+        "id": 0,
+        "avatar": "https://cdn4.iconfinder.com/data/icons/avatars-xmas-giveaway/128/batman_hero_avatar_comics-512.png",
+        "Name": "Adam Denisov",
+        "userID": "DEV63016762",
+        "phone": "1-(618)312-3065",
+        "email": "rsnyder@blogspan.gov",
+        "dateOfRegistry": "04/28/2018"
+    },
+    {
+        "id": 1,
+        "avatar": "https://www.pngkey.com/png/detail/55-556528_pic-avatars-for-jira-star-wars.png",
+        "Name": "Alexa Richardson",
+        "userID": "DEV08801335",
+        "phone": "7-(648)993-5934",
+        "email": "belliott@youspan.mil",
+        "dateOfRegistry": "04/28/2018"
+    },
+    {
+        "id": 2,
+        "avatar": "https://cdn4.iconfinder.com/data/icons/avatars-xmas-giveaway/128/batman_hero_avatar_comics-512.png",
+        "Name": "Anje Keizer",
+        "userID": "DEV04380234",
+        "phone": "3-(459)237-2205",
+        "email": "jfox@voolith.mil",
+        "dateOfRegistry": "04/28/2018"
+    },
+    {
+        "id": 3,
+        "avatar": "https://cdn4.iconfinder.com/data/icons/avatars-xmas-giveaway/128/batman_hero_avatar_comics-512.png",
+        "Name": "Ava Gregoraci",
+        "userID": "DEV61057555",
+        "phone": "9-(091)354-5499",
+        "email": "kmartinez@dabtype.net",
+        "dateOfRegistry": "04/28/2018"
+    },
+    {
+        "id": 4,
+        "avatar": "https://www.pngkey.com/png/detail/55-556528_pic-avatars-for-jira-star-wars.png",
+        "Name": "Cao Yu",
+        "userID": "DEV72600260",
+        "phone": "4-(590)461-3734",
+        "email": "rdixon@wikido.mil",
+        "dateOfRegistry": "04/28/2018"
+    },
+    {
+        "id": 5,
+        "avatar": "https://cdn4.iconfinder.com/data/icons/avatars-xmas-giveaway/128/batman_hero_avatar_comics-512.png",
+        "Name": "Clarke Gillebert",
+        "userID": "DEV11328418",
+        "phone": "3-(953)597-3248",
+        "email": "afrazier@wikibox.net",
+        "dateOfRegistry": "04/28/2018"
+    }
+]
+}
