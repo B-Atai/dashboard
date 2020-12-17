@@ -7,7 +7,7 @@ const Item = ({ users }) => {
                     <tr className='manage__row'>
                         <td className='col-3'>
                             <img src={item.avatar} alt="" className='manage__avatar'/>
-                            <span className='manage__name'>{item.Name}</span>
+                            <span className='manage__name'>{item.fullName}</span>
                         </td>
                         <td className='col-3'>{item.userID}</td>
                         <td className='col-3'>{item.phone}</td>
