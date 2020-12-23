@@ -4,11 +4,9 @@ import { Link } from 'react-router-dom';
 
 const SideNav = () => {
   const [itemActive, setItemActive] = React.useState(0);
-
   const handleClick = (index) => {
     setItemActive(index);
   };
-
   return (
     <nav className='sidebar__nav'>
       <ul>
@@ -28,5 +26,4 @@ const SideNav = () => {
     </nav>
   );
 };
-
 export default SideNav;
