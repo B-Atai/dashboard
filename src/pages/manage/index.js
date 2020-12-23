@@ -5,6 +5,7 @@ import Content from './content';
 import key from '../../assets/key.svg';
 import search from '../../assets/search.svg';
 import plus from '../../assets/plus.svg';
+import BtnBack from './btn'; 
 import './style.scss';
 
 
@@ -61,15 +62,47 @@ const Manage = () => {
     <section className='manage'>
       {activeModal && (
         <div className='modal'>
-          <form onSubmit={(event) => handleSubmit(event)}>
-            <h3>Я есть модалка</h3>
-            <input onChange={(event) => saveData(event)} value={newUser.fullName} type='text' placeholder='Введите Имя Пользователя' />
-            <input onChange={(event) => saveData(event)} value={newUser.avatar} type='text' placeholder='Введите путь к картинке' />
-            <input onChange={(event) => saveData(event)} value={newUser.userID} type='text' placeholder='Введите ID' />
-            <input onChange={(event) => saveData(event)} value={newUser.phone} type='text' placeholder='Введите номер телефона' />
-            <input onChange={(event) => saveData(event)} value={newUser.email} type='text' placeholder='Введите почту пользователя' />
-           <button>Добавить пользователя</button>
-          </form>
+          <div className='col-6'>
+            <div onClick={() => setActiveModal(false)}>
+              <BtnBack />
+            </div>
+            <h3 className='modal__title'>Create a new user</h3>
+            <h6 className='modal__suptitle'>Add main information about user</h6>
+            <form className='modal__form' onSubmit={(event) => handleSubmit(event)}>
+              <input
+                onChange={(event) => saveData(event)}
+                value={newUser.fullName}
+                type='text'
+                placeholder='Введите Имя Пользователя'
+              />
+              <input
+                onChange={(event) => saveData(event)}
+                value={newUser.avatar}
+                type='text'
+                placeholder='Введите путь к картинке'
+              />
+              <input
+                onChange={(event) => saveData(event)}
+                value={newUser.userID}
+                type='text'
+                placeholder='Введите ID'
+              />
+              <input
+                onChange={(event) => saveData(event)}
+                value={newUser.phone}
+                type='text'
+                placeholder='Введите номер телефона'
+              />
+              <input
+                onChange={(event) => saveData(event)}
+                value={newUser.email}
+                type='text'
+                placeholder='Введите почту пользователя'
+              />
+              <button className='btn-blue form__btn'>Add New User</button>
+            </form>
+          </div>
+          <div className='col-6'>Тут должна быть картинка</div>
         </div>
       )}
       <div className='manage__top row'>
